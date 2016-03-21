@@ -1,0 +1,4 @@
+# mpg123-uwp
+A VS2015 project that lets your build mpg123 for Windows 10 UWP apps.
+
+See "COPYING" for license
