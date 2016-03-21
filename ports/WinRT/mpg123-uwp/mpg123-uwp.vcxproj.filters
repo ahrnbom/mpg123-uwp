@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0f001250-7b3e-45c5-96e6-d9ffc5dd5995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tests">
+      <UniqueIdentifier>{bd4eb9c9-d49c-4db0-82d6-784231329ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\output">
+      <UniqueIdentifier>{2793d8b4-c2a8-4b33-a5a1-67a037336d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libmpg123">
+      <UniqueIdentifier>{fc035a7d-48c6-4887-8df8-a7d0206dcff7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\audio.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\buffer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\common.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\control_generic.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\equalizer.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\genre.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\getlopt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\httpget.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\legacy_module.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\local.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\metaprint.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\module.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\mpg123.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\playlist.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\resolver.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\sfifo.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\streamdump.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\term.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wav.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\win32_net.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\win32_support.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\xfermem.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\compat.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\dct64.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\dct64_altivec.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\dct64_i386.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\dct64_i486.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\dither.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\equalizer.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\feature.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\format.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\frame.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\icy.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\icy2utf8.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\id3.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\index.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\layer1.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\layer2.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\layer3.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\lfs_alias.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\lfs_wrap.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\libmpg123.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\ntom.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\optimize.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\parse.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\readers.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\stringbuf.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\synth.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\synth_8bit.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\synth_altivec.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\synth_i486.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\synth_real.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\synth_s32.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\tabinit.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libmpg123\testcpu.c">
+      <Filter>src\libmpg123</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\aix.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\alib.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\alsa.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\arts.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\coreaudio.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\dummy.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\esd.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\hp.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\jack.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\mint.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\nas.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\openal.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\os2.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\oss.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\portaudio.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\pulse.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\qsa.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\sdl.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\sgi.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\sndio.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\sun.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\output\win32.c">
+      <Filter>src\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\noise.c">
+      <Filter>src\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\plain_id3.c">
+      <Filter>src\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\seek_whence.c">
+      <Filter>src\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\tests\text.c">
+      <Filter>src\tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\audio.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\buffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\common.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\genre.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\getlopt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\httpget.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\local.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\metaprint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\module.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\mpg123app.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\playlist.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\resolver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\sfifo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\streamdump.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\term.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wavhead.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\win32_support.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\xfermem.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\compat.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\debug.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\decode.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\dither.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\frame.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\gapless.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\getbits.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\getcpuflags.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\huffman.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\icy.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\icy2utf8.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\id3.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\index.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\intsym.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\l2tables.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\l3_integer_tables.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\l12_integer_tables.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\mangle.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\mpeghead.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\mpg123lib_intern.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\optimize.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\parse.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\reader.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\sample.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\synth.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\synth_8bit.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\synth_mono.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\synth_ntom.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\synth_sse3d.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\synths.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libmpg123\true.h">
+      <Filter>src\libmpg123</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\tests\testtext.h">
+      <Filter>src\tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\libmpg123\dct36_3dnow.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct36_3dnowext.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_3dnow.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_3dnowext.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_mmx.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_neon.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_neon_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_sse.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_sse_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_x86_64.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\dct64_x86_64_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\equalizer_3dnow.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\getcpuflags.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\mpg123.h.in">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_3dnow.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_3dnowext.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_arm.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_arm_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_i586.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_i586_dither.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_mmx.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_neon.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_neon_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_neon_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_neon_s32.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_sse.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_sse_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_sse_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_sse_s32.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_neon.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_neon_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_neon_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_neon_s32.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_sse_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_sse_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_sse_s32.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_x86_64.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_x86_64_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_x86_64_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_stereo_x86_64_s32.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_x86_64.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_x86_64_accurate.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_x86_64_float.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\synth_x86_64_s32.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\libmpg123\tabinit_mmx.S">
+      <Filter>src\libmpg123</Filter>
+    </None>
+    <None Include="..\..\..\src\config.h.in">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
